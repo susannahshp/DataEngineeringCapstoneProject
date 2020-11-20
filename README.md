@@ -214,7 +214,7 @@ Also set the Bucket policy like the following:
             "Effect": "Allow",
             "Principal": "*",
             "Action": "*",
-            "Resource": "arn:aws:s3:::bella-bucket/*",
+            "Resource": "arn:aws:s3:::my-bucket/*",
             "Condition": {
                 "StringEquals": {
                     "s3:ExistingObjectTag/public": "yes"
