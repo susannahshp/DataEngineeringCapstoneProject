@@ -74,7 +74,7 @@ Count | Number of individual of each race
 ### Data Dictionary 
 
 There are the four tables made by extracting and transforming the data from the source data.
-The first table is the fact table and the other three tables are dimension tables.
+The first table is the fact table, and the other three tables are dimension tables.
 
 The following is the Data Dictionary of the four star-schema tables.
 
@@ -228,7 +228,7 @@ Also set the Bucket policy like the following:
 #### Redshift Configuration
 
 When you create a **Redshift cluster** for the project, select `dc2.large` node type.
-Set the **Database name** to `dev` and **Database port** to `5439` and **Master user name** to `awsuser` and enter your Master user password.
+Set the **Database name** to `dev` and **Database port** to `5439` and **Master username** to `awsuser` and enter your Master user password.
 For the **Cluster permissions** add a pre-created IAM role. The IAM role has to have `AmazonS3FullAccess` policy attached.
 Finally, for the **Additional configurations** set **Enhanced VPC routing** to **Enabled**, and set **Publicly accessible** to **Yes**.
 Set the other options to Default.
