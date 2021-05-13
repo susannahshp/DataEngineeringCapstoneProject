@@ -34,7 +34,7 @@ i94yr | 4 digit year
 i94mon | Numeric month
 i94cit | 3 digit code of source city for immigration (Born country)
 i94res | 3 digit code of source country for immigration (Residence country)
-i94port | Port addmitted through
+i94port | Port admitted through
 arrdate | Arrival date in the USA
 i94mode | Mode of transportation (1 = Air; 2 = Sea; 3 = Land; 9 = Not reported)
 i94addr | State of arrival
@@ -141,7 +141,7 @@ state_foreign_born | Count of people who were foreign born by state
 The following is an image of the Star Schema Data Model.
 
 
-![Imgae of Star Schema](https://github.com/susannahshp/DataEngineeringCapstoneProject/blob/main/star_schema.png)
+![Image of Star Schema](https://github.com/susannahshp/DataEngineeringCapstoneProject/blob/main/star_schema.png)
 
 
 
@@ -230,7 +230,7 @@ Also set the Bucket policy like the following:
 When you create a **Redshift cluster** for the project, select `dc2.large` node type.
 Set the **Database name** to `dev` and **Database port** to `5439` and **Master user name** to `awsuser` and enter your Master user password.
 For the **Cluster permissions** add a pre-created IAM role. The IAM role has to have `AmazonS3FullAccess` policy attached.
-Finally for the **Additional configurations** set **Enhanced VPC routing** to **Enabled**, and set **Publicly accessible** to **Yes**.
+Finally, for the **Additional configurations** set **Enhanced VPC routing** to **Enabled**, and set **Publicly accessible** to **Yes**.
 Set the other options to Default.
 
 
